@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <div className="bg-red-400 text-blue-800 p-2">
+      This is a Tailwind CSS styled component.
+    </div>
       </header>
     </div>
   );
